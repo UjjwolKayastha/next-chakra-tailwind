@@ -1,5 +1,10 @@
+import { Button as ChakraButton } from '@chakra-ui/react';
 import * as React from 'react';
 
-export const Button = () => {
-  return <button className="rounded-full bg-red-500">Boop</button>;
+export const OurButton = () => {
+  return (
+    <ChakraButton className="rounded-full !bg-blue-500 text-white">
+      Boop
+    </ChakraButton>
+  );
 };
